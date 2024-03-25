@@ -44,10 +44,10 @@ $(document).ready(function () {
   var swiper = new Swiper('.swiper-container.carousel', {
     centeredSlides: true,
     slidesPerView: 'auto',
-    speed: 800,
+    speed: 1000,
     loop: true,
     autoplay: {
-      delay: 5000,
+      delay: 4000,
     },
     pagination: {
       el: '.swiper-pagination',
