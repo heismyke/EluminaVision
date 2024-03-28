@@ -76,7 +76,7 @@ button {
 #preloader .loading-area {
   opacity: 1;
   position: absolute;
-  width: 50%;
+  width: 70%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -89,7 +89,7 @@ button {
 }
 
 #preloader .loading-area img {
-  height: 30px;
+  height: 50px;
 }
 
 #preloader.loaded .left-side {
@@ -237,7 +237,7 @@ header .logo {
 }
 
 header .logo img {
-  max-height: 30px;
+  max-width: 200px;
 }
 
 header nav {
