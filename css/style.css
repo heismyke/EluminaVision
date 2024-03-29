@@ -1863,6 +1863,7 @@ footer .getintouch p {
 .nav-icon {
   display: none;
 }
+
 /*------------------------ Responsive ------------------------*/
 
 @media screen and (min-width: 1680px) {
@@ -1874,15 +1875,21 @@ footer .getintouch p {
 @media screen and (max-width: 1024px) {
   header nav {
     visibility: hidden;
+    z-index: 99998;
+    position: fixed;
     opacity: 0;
     height: 0;
   }
 
   .nav-icon {
+    z-index: 99999;
+    position: fixed;
+    right: 3%;
     display: inline;
   }
 
   header.open > nav {
+    top: 0;
     height: auto;
     visibility: visible;
     opacity: 1;
@@ -1901,9 +1908,8 @@ footer .getintouch p {
   header.open > nav {
     text-align: center;
     background: #512735;
-    position: absolute;
     width: 100%;
-    top: 69px;
+    top: 0;
     left: 0;
     padding-top: 20px;
     padding-bottom: 10px;
